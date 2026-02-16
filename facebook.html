@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook</title>
+
+  <style>
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Arial, sans-serif;
+}
+
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1f2933, #0f172a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.alert-box {
+  background-color: #fee2e2;
+  border-left: 6px solid #dc2626;
+  padding: 32px 36px;
+  max-width: 520px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.35);
+  animation: fadeIn 0.45s ease-out;
+}
+
+
+.icon {
+  font-size: 42px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.top {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 34px;
+  font-weight: 700;
+  color: #dc2626;            /* alert red */
+  letter-spacing: 1px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border-left: 4px solid #dc2626;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+}
+.top::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #dc2626;
+  margin: 12px auto 0;
+  border-radius: 4px;
+}
+
+.alert-box h1 {
+  color: #7f1d1d;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.alert-box p {
+  color: #991b1b;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-top: 6px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .top {
+    font-size: 28px;
+  }
+
+  .alert-box {
+    padding: 26px 24px;
+  }
+
+  .alert-box p {
+    font-size: 15px;
+  }
+}
+
+  </style>
+</head>
+
+<body>
+    <h1 class="top">Facebook</h1>
+  <div class="alert-box">
+    <div class="icon">⚠️</div>
+    <h1>Facebook Not Available</h1>
+    <p>
+      I am not using Facebook at the moment.<br />
+      Please connect with me through other social platforms.
+    </p>
+  </div>
+</body>
+</html>

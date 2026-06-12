@@ -97,7 +97,7 @@ const AppShowcase = () => {
         {/* Show All Projects Button */}
         <div className="w-full mt-12 flex justify-center">
             <a
-              href="src/project/show_allproj.html"
+              href="https://my-projects-six-omega.vercel.app/"
               className="inline-block px-8 py-3 text-white bg-blue-600 hover:bg-blue-700 
                          font-semibold rounded-xl shadow-md hover:shadow-xl 
                          transition duration-300 ease-in-out"

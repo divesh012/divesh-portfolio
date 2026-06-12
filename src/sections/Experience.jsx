@@ -6,6 +6,13 @@ import { expCards } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
 
+
+//Read all file header Comment Line
+//This file is for experience section and this can be the work experience section
+//They also be helped index.js file for image purpose and all files are used for that purpose.
+//All files Top header comment line is important for understanding the purpose of the file and how it fits into the overall project.
+
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Experience = () => {

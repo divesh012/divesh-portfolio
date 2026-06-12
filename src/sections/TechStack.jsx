@@ -4,7 +4,15 @@ import gsap from "gsap";
 import TitleHeader from "../components/TitleHeader";
 import TechIconCardExperience from "../components/models/tech_logos/TechIconCardExperience";
 import { techStackIcons } from "../constants";
-// import { techStackImgs } from "../constants";
+//import { techStackImgs } from "../constants";
+
+
+//Read all file header Comment Line
+//this page can be skills page and 
+//They also be helped index.js file
+// All files are used index.js for image purpose
+//Python React backend skillsssssssssssssssss
+
 
 const TechStack = () => {
   // Animate the tech cards in the skills section

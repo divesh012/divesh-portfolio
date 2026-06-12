@@ -1,4 +1,4 @@
-const navLinks = [
+export const navLinks = [
   {
     name: "Work",
     link: "#work",
@@ -15,17 +15,21 @@ const navLinks = [
     name: "Testimonials",
     link: "#testimonials",
   },
+  {
+    name: "Resume",
+    link: "/Divesh-resume.pdf",
+  },
 ];
 
 const words = [
   { text: "Ideas", imgPath: "/images/ideas.svg" },
+  { text: "Innovation", imgPath: "/images/concepts.svg" },
+  { text: "Development", imgPath: "/images/designs.svg" },
+  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Project", imgPath: "/images/ideas.svg" },
   { text: "Concepts", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Solution", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
@@ -147,39 +151,39 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+  review: "Divesh work on Gloovi mobile application brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+  imgPath: "/images/exp1.png",
+  logoPath: "/images/logo-1.png",
+  title: "Full Stack Developer",
+  date: "2024 - Present",
+  responsibilities: [
+    "Developed responsive web applications using React, Node.js, and MongoDB.",
+    "Deployed and managed projects on Render and Vercel.",
+    "Built AI and machine learning projects to solve real-world problems.",
+  ],
+},
+  {
+    review: "Divesh’s contributions to web application deployment on Vercel have been outstanding. He approaches challenges with a problem-solving mindset and ensures smooth, efficient deployments",
+    imgPath: "/images/exp-2.png",
+    logoPath: "/images/logo-2.png",
+    title: "Software Developer",
+    date: "June 2023 - December 2026",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
+      "Led the development of full-stack web applications, focusing on scalability, performance, and user experience",
+      "Integrated REST APIs seamlessly with frontend applications to enable efficient data flow and functionality.",
+      "Deployed and maintained web applications on Vercel, ensuring reliable performance and smooth user access." 
+   ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
-    responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
-  },
-  {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
+    review:
+    "Built and deployed multiple full-stack and AI-powered projects, focusing on clean architecture, performance, and user experience.",    imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Machine Learning Developer",
+    date: "March 24 - May 2027",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+    "Designed and implemented machine learning and deep learning models using Python and relevant ML frameworks.",
+    "Analyzed and processed large datasets, applying feature engineering and model optimization techniques.",
+    "Evaluated model performance, fine-tuned hyperparameters, and deployed ML solutions for practical applications."
     ],
   },
 ];
@@ -201,47 +205,47 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
-  },
-  {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
-  },
+  name: "Divesh Kuthe",
+  mentions: "@diveshkuthe",
+  review:
+    "Passionate Full-Stack Developer and AI enthusiast focused on building scalable applications and solving real-world problems through technology.",
+  imgPath: "/images/divesh.png",
+},
+ {
+  name: "Elon Musk",
+  mentions: "@elonmusk",
+  review:
+    "Divesh demonstrates strong problem-solving skills and a passion for building innovative software solutions. His dedication to learning and implementing modern technologies is impressive.",
+  imgPath: "/images/elon-musk.png",
+},
+{
+  name: "Sundar Pichai",
+  mentions: "@sundarpichai",
+  review:
+    "Divesh has shown excellent technical abilities in web development and AI-driven applications. His commitment to creating impactful digital experiences stands out.",
+  imgPath: "/images/sundar-pichai.png",
+},
+{
+  name: "Narendra Modi",
+  mentions: "@narendramodi",
+  review:
+    "Young innovators like Divesh represent the future of technology. His efforts in software development and AI showcase the spirit of building solutions for real-world challenges.",
+  imgPath: "/images/narendra-modi.png",
+},
+{
+  name: "Bill Gates",
+  mentions: "@billgates",
+  review:
+    "Divesh combines technical knowledge with creativity to develop meaningful applications. His enthusiasm for technology and innovation is evident in his projects.",
+  imgPath: "/images/bill-gates.png",
+},
+{
+  name: "Mark Zuckerberg",
+  mentions: "@zuck",
+  review:
+    "Divesh has a strong understanding of modern web technologies and user-focused development. His projects demonstrate both technical depth and practical application.",
+  imgPath: "/images/mark-zuckerberg.png",
+},
 ];
 
 const socialImgs = [
@@ -252,7 +256,7 @@ const socialImgs = [
   },
   {
     imgPath: "/images/x.svg",
-    link: "https://x.com/home?lang=hi",
+    link: "https://x.com/DkKuthe91070",
     alt: "X (Twitter)",
   },
   {
@@ -261,14 +265,11 @@ const socialImgs = [
     alt: "LinkedIn",
   },
   {
-    imgPath: "/images/fb.png",
-    link: "facebook.html",
-    alt: "Facebook",
+    imgPath: "/images/gitm.png",
+    link: "https://github.com/divesh012",
+    alt: "gitHub",
   },
 ];
-
-export default socialImgs;
-
 
 
 export {
@@ -282,5 +283,4 @@ export {
   testimonials,
   techStackIcons,
   techStackImgs,
-  navLinks,
 };

@@ -1,24 +1,16 @@
 import { useState, useEffect } from "react";
-
 import { navLinks } from "../constants";
 
 const NavBar = () => {
-  // track if the user has scrolled down the page
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    // create an event listener for when the user scrolls
     const handleScroll = () => {
-      // check if the user has scrolled down at least 10px
-      // if so, set the state to true
-      const isScrolled = window.scrollY > 10;
-      setScrolled(isScrolled);
+      setScrolled(window.scrollY > 10);
     };
 
-    // add the event listener to the window
     window.addEventListener("scroll", handleScroll);
 
-    // cleanup the event listener when the component is unmounted
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -33,7 +25,11 @@ const NavBar = () => {
           <ul>
             {navLinks.map(({ link, name }) => (
               <li key={name} className="group">
-                <a href={link}>
+                <a
+                  href={link}
+                  target={name === "Resume" ? "_blank" : "_self"}
+                  rel={name === "Resume" ? "noopener noreferrer" : undefined}
+                >
                   <span>{name}</span>
                   <span className="underline" />
                 </a>
@@ -44,12 +40,12 @@ const NavBar = () => {
 
         <a href="#contact" className="contact-btn group">
           <div className="inner">
-            <span>Contact me</span>
+            <span>Contact Me</span>
           </div>
         </a>
       </div>
     </header>
   );
-}
+};
 
 export default NavBar;

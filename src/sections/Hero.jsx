@@ -4,7 +4,7 @@ import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
-
+//This can be main Body File After The navbar Portion
 const Hero = () => {
   useGSAP(() => {
     gsap.fromTo(
@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Shaping
+                Turning  
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -49,8 +49,10 @@ const Hero = () => {
               <h1>that Deliver Results</h1>
             </div>
 
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Divesh — a software developer passionate about building clean, scalable, and impactful solutions.
+            <p className="text-white-50 md:text-xl max-w-2xl relative z-10">
+              Hi, I'm Divesh Kuthe, a Computer Science (AI) student passionate about
+              Full-Stack Development, Machine Learning, and building impactful software
+              solutions for real-world challenges.
             </p>
 
             <Button

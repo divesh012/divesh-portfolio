@@ -1,5 +1,10 @@
 import { abilities } from "../constants";
 
+//Read All Files hearder Comment Line
+//There are the three main feature 
+//Qua;ity Feature Reliable communication and on time delivery
+//this File portion is just below the logo section and just above the experience section
+
 const FeatureCards = () => (
   <div className="w-full padding-x-lg">
     <div className="mx-auto grid-3-cols">

@@ -7,7 +7,9 @@ const LogoIcon = ({ icon }) => {
     </div>
   );
 };
-
+//read all file header Comment Line
+//This Can be Logo File Microsoft Adidas Docker and etc 
+//They help For index.js file  for Image 
 const LogoShowcase = () => (
   <div className="md:my-20 my-10 relative">
     <div className="gradient-edge" />

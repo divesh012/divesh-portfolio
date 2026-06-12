@@ -17,7 +17,7 @@ export const navLinks = [
   },
   {
     name: "Resume",
-    link: "/Divesh-resume.pdf",
+    link: "/resume-port.pdf",
   },
 ];
 

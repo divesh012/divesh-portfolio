@@ -154,6 +154,37 @@ section {
     }
   }
 
+  .nav-buttons{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+/* Hidden on Desktop */
+.resume-btn{
+  display:none;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+/* Hide Resume button by default (Desktop) */
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.resume-btn {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .resume-btn {
+    display: flex !important;
+  }
+}
+
   .app-showcase {
     @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
 
